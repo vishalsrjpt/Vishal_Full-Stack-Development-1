@@ -1,0 +1,41 @@
+18-Apr-2026 20:25:14.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.54
+18-Apr-2026 20:25:14.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 22:31:53 UTC
+18-Apr-2026 20:25:14.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.54.0
+18-Apr-2026 20:25:14.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Apr-2026 20:25:14.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.87.2-microsoft-standard-WSL2
+18-Apr-2026 20:25:14.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2026 20:25:14.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+18-Apr-2026 20:25:14.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8
+18-Apr-2026 20:25:14.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+18-Apr-2026 20:25:14.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+18-Apr-2026 20:25:14.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+18-Apr-2026 20:25:14.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+18-Apr-2026 20:25:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2026 20:25:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Apr-2026 20:25:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Apr-2026 20:25:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+18-Apr-2026 20:25:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Apr-2026 20:25:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2026 20:25:14.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+18-Apr-2026 20:25:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2026 20:25:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2026 20:25:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2026 20:25:14.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2026 20:25:14.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+18-Apr-2026 20:25:14.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+18-Apr-2026 20:25:14.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+18-Apr-2026 20:25:14.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.2].
+18-Apr-2026 20:25:14.220 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+18-Apr-2026 20:25:14.836 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2026 20:25:14.901 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1294] milliseconds
+18-Apr-2026 20:25:14.975 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2026 20:25:14.975 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.54]
+18-Apr-2026 20:25:15.014 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ROOT.war]
+18-Apr-2026 20:25:16.212 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2026 20:25:16.357 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ROOT.war] has finished in [1,342] ms
+18-Apr-2026 20:25:16.363 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2026 20:25:16.382 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1481] milliseconds
+18-Apr-2026 20:25:25.547 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2026 20:25:25.555 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2026 20:25:25.585 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2026 20:25:25.599 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

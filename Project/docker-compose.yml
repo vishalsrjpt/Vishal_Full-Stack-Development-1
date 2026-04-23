@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+
+  # ─── MySQL Database Container ─────────────────────
+  mysql:
+    image: mysql:8.0
+    container_name: jobfinder_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: jobfinder_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    networks:
+      - jobfinder_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot123"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ─── Tomcat App Container ──────────────────────────
+  tomcat:
+    build: .
+    container_name: jobfinder_tomcat
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - jobfinder_network
+    volumes:
+      - ./logs:/usr/local/tomcat/logs
+
+# ─── Shared Network ───────────────────────────────────
+networks:
+  jobfinder_network:
+    driver: bridge
+
+# ─── Persistent Data Volume ───────────────────────────
+volumes:
+  mysql_data:
