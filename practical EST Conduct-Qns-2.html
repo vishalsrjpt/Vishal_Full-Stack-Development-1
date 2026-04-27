@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showAlert() {
+            alert("Form submitted successfully!");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Question 2 Forms</h1>
+
+    <div>
+        <form method="post" align="center" onsubmit="showAlert()">
+            <fieldset>
+                <legend>User Details</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name Here">
+                <br>
+                <br>
+                <label for="uid">UID</label>
+                <input type="text" id="uid" name="uid" placeholder="Your UID here">
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p align="center">Copyright &copy; 2024 Vishal Dev. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
